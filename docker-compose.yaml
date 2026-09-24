@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: pro-ki:latest
+    image: screw-detect:latest
     network_mode: host
     privileged: true
     container_name: bondsight
@@ -13,7 +13,14 @@ services:
       - DISPLAY=${DISPLAY}
       - XAUTHORITY=/root/.Xauthority
     devices:
+      - /dev/video2:/dev/video2
+      - /dev/video3:/dev/video3
+      - /dev/video4:/dev/video4
+      - /dev/video5:/dev/video5
       - /dev/video6:/dev/video6
+      - /dev/video7:/dev/video7
+      - /dev/media1:/dev/media1
+      - /dev/media2:/dev/media2
     stdin_open: true
     tty: true
     volumes:
