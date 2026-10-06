@@ -1,6 +1,4 @@
-# BondSight
-Real-time YOLO based detection of Allen bolts and determining whether they are new or rusted
-# BondSight
+# ScrewDetect
 Real-time YOLO based detection of screw, plug, weld, and adhesive connections and whether they're new or worn. A fine tuned YOLO model trained on a dataset containing images of Allen bolts of multiple sizes including M4, M6, M8, M10, M14, M16 trained to detect New and Rusted bolts and classify them according to their sizes
 
 
