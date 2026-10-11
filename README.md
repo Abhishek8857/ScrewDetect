@@ -120,7 +120,7 @@ Args:
 #### 2. Prepare Dataset
 
 ```sh
-python3 scripts/prepare_dataset.py --source <NUMBER>
+python3 scripts/prepare_dataset.py --source <PATH>
 ```
 Args:
 - `--source`: Folder path containing the images                                     | Required
