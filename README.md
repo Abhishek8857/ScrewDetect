@@ -73,6 +73,24 @@ The Docker Compose configuration passes through the host GPU, camera devices, an
 
 You can find the exported data from CVAT in the `cvat_exports` folder in `.zip` format. Currently there are 250 labelled images for new Allen bolts with the label `Schraube_Neu` and 80 images with mixed rusted and new bolts with the rusted labelled with `Schraube_Ver`. For training, a classic split for `70-20-10` for `train-validation-test`.
 
+### Labeling examples
+
+The following images show the CVAT annotation workflow used to label `Schraube_Neu` and `Schraube_Ver` instances.
+
+<p align="center">
+  <img src="doc/Labelling_1.png" alt="CVAT labeling example 1" width="48%" />
+  <img src="doc/Labelling_2.png" alt="CVAT labeling example 2" width="48%" />
+</p>
+
+### Detection examples
+
+Examples of the trained model detecting and classifying screws in real scenes:
+
+<p align="center">
+  <img src="doc/Erkennung_1.jpg" alt="Detection example 1" width="48%" />
+  <img src="doc/Erkennung_2.jpg" alt="Detection example 2" width="48%" />
+</p>
+
 ## Setup
 
 1. Clone the Environment
