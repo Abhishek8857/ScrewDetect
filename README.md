@@ -1,5 +1,5 @@
 # ScrewDetect
-Real-time YOLO based detection of screw, plug, weld, and adhesive connections and whether they're new or worn. A fine tuned YOLO model trained on a dataset containing images of Allen bolts of multiple sizes including M4, M6, M8, M10, M14, M16 trained to detect New and Rusted bolts and classify them according to their sizes
+Real-time YOLO based detection of screws to detect whether a screw is new or rusted. A fine tuned YOLO model trained on a dataset containing images of Allen bolts of multiple sizes including M4, M6, M8, M10, M14, M16 trained to detect New and Rusted bolts and classify them according to their sizes
 
 
 ## Features
